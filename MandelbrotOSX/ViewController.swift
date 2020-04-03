@@ -10,6 +10,8 @@ import Cocoa
 
 class ViewController: NSViewController {
 
+    @IBOutlet weak var MandelbrotView: CustomView!
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
